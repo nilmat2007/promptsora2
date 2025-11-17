@@ -1,5 +1,5 @@
 import React, { useRef } from 'react';
-import type { ReferenceImage } from '../types';
+import { ReferenceImage } from '../types.ts';
 
 interface ReferenceImagesProps {
   images: ReferenceImage[];

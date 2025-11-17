@@ -1,7 +1,7 @@
 import React from 'react';
 // FIX: The 'Duration' type is defined in '../types' and was incorrectly imported from '../constants'.
-import { DURATIONS } from '../constants';
-import type { Duration } from '../types';
+import { DURATIONS } from '../constants.ts';
+import type { Duration } from '../types.ts';
 
 interface DurationSelectorProps {
   selectedDuration: Duration;

@@ -1,5 +1,4 @@
-
-import { Genre, Duration } from './types';
+import { Genre, Duration } from './types.ts';
 
 export const GENRES: Genre[] = ['สยองขวัญ', 'โฆษณาสินค้า', 'รีวิว', 'ตลก', 'ภาพยนตร์'];
 export const DURATIONS: Duration[] = [15, 30, 45];

@@ -1,5 +1,5 @@
 import React from 'react';
-import type { Duration, TimelineSegment } from '../types';
+import { Duration, TimelineSegment } from '../types.ts';
 
 interface TimelineEditorProps {
     duration: Duration;

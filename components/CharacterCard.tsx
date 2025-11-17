@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import type { Character, SavedCameo } from '../types';
+import { Character, SavedCameo } from '../types.ts';
 
 interface CharacterCardProps {
   character: Character;

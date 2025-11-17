@@ -1,14 +1,14 @@
 import React, { useState, useCallback, useMemo, useEffect } from 'react';
-import { PromptData, Genre, Character, ReferenceImage, SavedCameo, Duration, TimelineSegment } from './types';
-import { GENRES, CAMERA_ANGLES, LIGHTING_STYLES, DURATIONS } from './constants';
-import { generatePromptDetails } from './services/geminiService';
-import { CharacterCard } from './components/CharacterCard';
-import { GeneratedPrompt } from './components/GeneratedPrompt';
-import { AiHelper } from './components/AiHelper';
-import { ReferenceImages } from './components/ReferenceImages';
-import { DurationSelector } from './components/DurationSelector';
-import { TimelineEditor } from './components/TimelineEditor';
-import { ApiKeyModal } from './components/ApiKeyModal';
+import { PromptData, Genre, Character, ReferenceImage, SavedCameo, Duration, TimelineSegment } from './types.ts';
+import { GENRES, CAMERA_ANGLES, LIGHTING_STYLES, DURATIONS } from './constants.ts';
+import { generatePromptDetails } from './services/geminiService.ts';
+import { CharacterCard } from './components/CharacterCard.tsx';
+import { GeneratedPrompt } from './components/GeneratedPrompt.tsx';
+import { AiHelper } from './components/AiHelper.tsx';
+import { ReferenceImages } from './components/ReferenceImages.tsx';
+import { DurationSelector } from './components/DurationSelector.tsx';
+import { TimelineEditor } from './components/TimelineEditor.tsx';
+import { ApiKeyModal } from './components/ApiKeyModal.tsx';
 
 const initialCharacter: Character = {
   id: Date.now(),
